@@ -1,12 +1,12 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
-}
+	margin-top: 2px;
+} 
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
-.example-class-selector p {
+.example-class-selector {
 	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+	color: #C390D4;
 }
 
 /* this style exists to make it obvious that you've successfully linked
@@ -14,6 +14,15 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+}
+
+.header p {
+     font-variant: small-caps;
+}
+
+.project p {
+     font-variant: small-caps;
+     margin-left: 20px;
 }
 
 .jumbotron {
